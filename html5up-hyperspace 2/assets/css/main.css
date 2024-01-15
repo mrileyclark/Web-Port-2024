@@ -2091,16 +2091,17 @@ button:hover:active:after,
   margin: 0 0 2em 0;
 }
 
-.features section img {
-  width: 70%;
-  object-fit: cover;
-}
-
 .features section {
   padding: 3.5em 3em 1em 7em;
   width: 50%;
   border-top: solid 1px rgba(255, 255, 255, 0.15);
   position: relative;
+}
+
+.features section img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .features section:nth-child(-n + 2) {
