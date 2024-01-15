@@ -2085,6 +2085,7 @@ button:hover:active:after,
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  align-items: center;
   border-radius: 0.25em;
   border: solid 1px rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.05);
@@ -2099,12 +2100,13 @@ button:hover:active:after,
 }
 
 .features section img {
-  max-width: 100%;
-  height: auto;
+  height: calc(100% - 6.8rem);
+  width: 100%;
   object-fit: cover;
+  max-width: max-content;
 }
 
-.features section:nth-child(-n + 2) {
+.features section:nth-child(-n + 3) {
   border-top-width: 0;
 }
 
