@@ -2088,7 +2088,7 @@ button:hover:active:after,
   align-items: center;
   border-radius: 0.25em;
   border: solid 1px rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(223, 14, 14, 0.05);
   margin: 0 0 2em 0;
 }
 
@@ -2100,10 +2100,14 @@ button:hover:active:after,
 }
 
 .features section img {
-  height: calc(100% - 6.8rem);
+  height: auto;
   width: 100%;
-  object-fit: cover;
-  max-width: max-content;
+  /* object-fit: cover; */
+  /* max-width: max-content; */
+}
+
+.features section a {
+  border-bottom: none;
 }
 
 .features section:nth-child(-n + 3) {
