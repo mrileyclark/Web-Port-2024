@@ -2100,10 +2100,9 @@ button:hover:active:after,
 }
 
 .features section img {
-  height: auto;
-  width: 100%;
-  /* object-fit: cover; */
-  /* max-width: max-content; */
+  height: 216px;
+  width: 375px;
+  object-fit: cover;
 }
 
 .features section a {
