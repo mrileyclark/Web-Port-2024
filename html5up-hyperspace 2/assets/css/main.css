@@ -2100,8 +2100,8 @@ button:hover:active:after,
 }
 
 .features section img {
-  height: 216px;
-  width: 375px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -2109,7 +2109,7 @@ button:hover:active:after,
   border-bottom: none;
 }
 
-.features section:nth-child(-n + 3) {
+.features section:nth-child(-n + 1) {
   border-top-width: 0;
 }
 
