@@ -23,9 +23,9 @@ const interval = setInterval(() => {
   //display result
   countdown.innerHTML = `
     <div>${days}<span>Days</span></div>
-    <div>${hours}<span>Days</span></div>
-    <div>${mins}<span>Days</span></div>
-    <div>${seconds}<span>Days</span></div>
+    <div>${hours}<span>Hours</span></div>
+    <div>${mins}<span>Mins</span></div>
+    <div>${seconds}<span>Secs</span></div>
   `;
 
   //checks if launch date is passed
