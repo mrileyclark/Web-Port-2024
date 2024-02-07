@@ -24,7 +24,7 @@ body {
 
 .container {
   position: relative;
-  background-image: url("https://images.unsplash.com/photo-1612528443702-f6741f70a049?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2980&q=80");
+  background-image: url("https://images.unsplash.com/photo-1615621734603-04c156e22380?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmVjb3JkJTIwc2hvcHxlbnwwfHwwfHx8Mg%3D%3D");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -32,7 +32,7 @@ body {
 
 .container h1 {
   font-size: 60px;
-  margin-bottom: 25px;
+  margin-top: 225px;
 }
 
 .container p {
@@ -50,7 +50,7 @@ body {
 .countdown div {
   padding: 20px;
   border: 1px solid #fff;
-  border-radius: 25px;
+  border-radius: 50%;
   background: #000;
   opacity: 0.8;
   margin: 5px;
