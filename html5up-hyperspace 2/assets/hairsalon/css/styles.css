@@ -1,0 +1,515 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav section
+   */
+header {
+  background: white;
+  height: 60px;
+  width: 100%;
+}
+
+.logo {
+  float: left;
+  width: 10%;
+  margin: 0 5%;
+  padding: 15px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.links {
+  float: left;
+  width: 65%;
+  padding: 25px;
+  font-size: 0.7rem;
+}
+
+.links > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  float: left;
+  width: 10%;
+  /*   this adds padding for inside of the parent to push the links 
+    foward without adding width on the oustide */
+  padding-left: 8.5vw;
+}
+
+.booking {
+  float: left;
+  width: 15%;
+  padding: 25px;
+  font-size: 0.7rem;
+}
+
+.booking > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+/* main section */
+
+.main {
+  width: 100%;
+  height: 620px;
+  border-bottom: 5px solid silver;
+  border-radius-right: 5%;
+  background-image: url("https://media.istockphoto.com/id/952087324/photo/beauty-fashion-model-girl-with-colorful-dyed-hair.jpg?s=612x612&w=0&k=20&c=sefYM7Cjx_S877d6-BpBCfMTcRnHeYKHe9PKGNkoCYA=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0 30px;
+}
+
+.intro {
+  width: 90%;
+  float: left;
+  text-transform: uppercase;
+  padding-left: 5rem;
+  padding-top: 5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: white;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  color: white;
+  padding-bottom: 2%;
+}
+
+.intro button {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 0.6rem;
+  border: none;
+  width: 18%;
+}
+
+.hours {
+  float: left;
+  width: 10%;
+  color: white;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding-top: 10%;
+}
+
+.hero-bottom {
+  float: left;
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.coupon {
+  width: 23%;
+  height: 40%;
+  float: left;
+  text-transform: uppercase;
+  padding: 0.9rem;
+  margin: 3rem 0 0 5rem;
+  background: black;
+  color: white;
+}
+
+.coupon span {
+  padding: 1.1rem;
+  display: block;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+sup {
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.coupon span + span {
+  padding-bottom: 1.5rem;
+  line-height: 1.75rem;
+  font-size: 0.75rem;
+}
+
+.coupon button {
+  background: white;
+  color: black;
+  text-transform: uppercase;
+  padding: 0.75rem;
+  font-size: 0.65rem;
+  margin-left: 0.85rem;
+  margin-bottom: 1rem;
+  width: 70%;
+  border: none;
+}
+
+/* .page-arrows {
+    width: 90%;
+    border: 2px solid purple;
+    float: right;
+  /*   padding-left: 1rem; */
+
+.col-3 {
+  width: 100%;
+  height: 400px;
+  /*   padding: 150px 40px; */
+  padding: 6.5rem 9rem;
+}
+
+.services {
+  height: 100%;
+  width: 31.33%;
+  /*   border: 2px solid purple; */
+  float: left;
+  padding: 1rem;
+  text-align: center;
+  margin: 0 1%;
+}
+
+.services h5 {
+  font-size: 1rem;
+}
+
+.services p {
+  font-size: 0.65rem;
+  line-height: 1.3rem;
+}
+
+.salon-info {
+  padding: 0 100px;
+  background: rgb(243, 244, 246);
+  height: 300px;
+}
+
+.salon {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 2rem;
+}
+
+.salon h3 {
+  text-transform: uppercase;
+  font-size: 1.55rem;
+  margin-top: 0.5rem;
+}
+
+.salon button {
+  color: white;
+  background: black;
+  padding: 0.75rem;
+  width: 40%;
+  text-transform: uppercase;
+  font-size: 0.65rem;
+  border: none;
+}
+
+.salon p {
+  font-size: 0.75rem;
+  padding-bottom: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.video {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border: 2px solid red;
+  padding: 3rem;
+}
+
+.gallery {
+  width: 100%;
+  height: 325px;
+  /*   border: 2px solid black; */
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.image {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  padding: 2.5rem 0;
+  /*   border: 2px solid blue; */
+}
+
+.image img {
+  width: 70%;
+  height: 95%;
+  /*   border: 2px solid blue; */
+  background: rgb(243, 244, 246);
+  padding: 5%;
+}
+
+.image span {
+  display: block;
+  /*   border: 2px solid orange; */
+  background: black;
+  padding: 2.95%;
+  color: white;
+  width: 65%;
+  margin-left: 38px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.image span + span {
+  padding-top: 0;
+  font-size: 0.45rem;
+}
+
+.daily-offer {
+  width: 100%;
+  height: 400px;
+  /*   border: 2px solid black; */
+  /*   text-align: center; */
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+.coupon-container {
+  float: left;
+  width: 50%;
+  padding: 7% 5%;
+  background: rgb(243, 244, 246);
+  width: 100%;
+  margin-top: 10%;
+}
+
+.coupon-container span {
+  text-transform: uppercase;
+  padding: 1.1rem;
+  display: block;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+.deal {
+  font-weight: bold;
+}
+
+.coupon-container span + span {
+  line-height: 1.95rem;
+  font-size: 1.2rem;
+  width: 45%;
+}
+
+.coupon-container button {
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.95rem;
+  font-size: 0.65rem;
+  width: 150px;
+  border: none;
+}
+
+.lookbook {
+  width: 100%;
+  height: 500px;
+  border: 2px solid orange;
+  text-align: center;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-transform: uppercase;
+}
+
+.lookbook-intro {
+  padding: 5% 0;
+}
+
+.left {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.middle {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.right {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+}
+
+.small {
+  float: left;
+  width: 90%;
+  height: 30%;
+  border: 2px solid purple;
+  margin: 5%;
+}
+
+.large {
+  float: left;
+  width: 90%;
+  height: 55%;
+  border: 2px solid pink;
+  margin: 5%;
+}
+
+@media only screen and (max-width: 468px) {
+  nav,
+  .booking,
+  .hours {
+    display: none;
+    /*     width: 100%; */
+  }
+
+  .intro {
+    width: 100%;
+    padding: 10%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .intro button {
+    width: 50%;
+    margin-top: 15px;
+  }
+
+  .coupon {
+    width: 50%;
+    padding: 0.9rem;
+    margin: 1rem 0 0 2.2rem;
+  }
+
+  .coupon span {
+    padding: 1rem;
+    display: block;
+    font-size: 0.65rem;
+    text-align: left;
+  }
+
+  sup {
+    font-weight: bold;
+    font-size: 1.55rem;
+  }
+
+  .coupon span + span {
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+  }
+
+  img {
+    width: 20%;
+  }
+
+  .col-3 {
+    height: 600px;
+    padding: 20%;
+  }
+
+  .services {
+    width: 100%;
+    height: 40%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  h5 {
+    margin: 0.5rem;
+  }
+
+  .salon {
+    width: 100%;
+    height: 350px;
+  }
+
+  .salon h3 {
+    font-size: 1.2rem;
+  }
+
+  .salon p {
+    font-size: 0.55rem;
+    line-height: 1.2rem;
+  }
+
+  .salon button {
+    width: 80%;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .image {
+    width: 100%;
+    height: 200px;
+    padding: 0;
+  }
+
+  .image img {
+    width: 50%;
+    height: 75%;
+  }
+
+  .image span {
+    padding: 0.95%;
+    width: 43%;
+    margin-left: 82px;
+    font-size: 0.65rem;
+  }
+
+  .image span + span {
+    padding-top: 0;
+    font-size: 0.45rem;
+  }
+
+  .coupon-container {
+    width: 100%;
+  }
+
+  .coupon-container span {
+    padding: 0.85rem;
+    display: block;
+    font-size: 0.7rem;
+  }
+
+  .coupon-container span + span {
+    line-height: 1.5rem;
+    font-size: 0.95rem;
+    width: 80%;
+  }
+
+  .lookbook {
+    margin-top: 50%;
+  }
+}
