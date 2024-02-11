@@ -15,7 +15,7 @@
     <!-- navbar -->
     <div class="container">
       <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+        class="d-flex flex-wrap justify-content-center py-3 mb-2 font-weght-bold"
       >
         <a
           href="/"
@@ -24,7 +24,9 @@
           <svg class="bi me-2" width="40" height="32">
             <use xlink:href="#bootstrap"></use>
           </svg>
-          <span class="fs-4 logo"><img src="./img/logo.JPG" alt="logo" /></span>
+          <span class="fs-4 logo"
+            ><img src="./img/logo.JPG" alt="logo" width="80" height="50"
+          /></span>
         </a>
 
         <ul class="nav nav-pills">
@@ -50,10 +52,22 @@
             <a href="#" class="nav-link text-dark">Contact</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-dark">Contact</a>
+            <a href="#" class="nav-link text-dark"
+              ><img
+                src="./img/search-icon.png"
+                alt="search icon"
+                width="20"
+                height="20"
+            /></a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link text-dark">Contact</a>
+            <a href="#" class="nav-link text-dark"
+              ><img
+                src="./img/bag-heart.svg"
+                alt="shopping cart"
+                width="20"
+                height="20"
+            /></a>
           </li>
           <li class="nav-item book">
             <a href="#" class="nav-link text-dark">- book online</a>
@@ -79,23 +93,26 @@
 
     <!-- hero -->
 
-    <div class="container col-xxl-8 py-5 hero">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+    <div class="container-fluid col-xxl-8 py-5 hero">
+      <div class="row flex-lg-row-reverse align-items-center py-5">
         <div class="col-10 col-sm-8 col-lg-6"></div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+        <div class="col-lg-6 text-light">
+          <h1 class="display-5 fw-bold text-light lh-1 mb-3">
             Blonde & Highlight
           </h1>
           <p class="lead">Divide your uniqueness by your hair in style</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
+            <button
+              type="button"
+              class="btn btn-dark btn-lg px-4 me-md-2 rounded-0"
+            >
               - Our Services
             </button>
-            <section class="hours">
-              <span>mon - sun : 7:00am - 8:00 pm</span>
-            </section>
           </div>
         </div>
+        <section class="hours d-flex align-items-end">
+          <span>mon - sun : 7:00am - 8:00 pm</span>
+        </section>
       </div>
     </div>
 
@@ -103,13 +120,13 @@
 
     <div class="container px-4 py-5" id="featured-3">
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="feature col">
+        <div class="feature col text-center">
           <div
             class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
           >
             <img src="./img/beauticians.JPG" alt="beautician" />
           </div>
-          <h4 class="fs-2 text-body-emphasis">Expert Beauticians</h4>
+          <h6 class="fs-2 text-body-emphasis">Expert Beauticians</h6>
           <p>
             Beauty experts lorem ipsum dolor sit amet, consectetur adipisicing
             elit. Tempore fugiat libero voluptates accusamus aut, temporibus
@@ -120,13 +137,14 @@
             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
           </a> -->
         </div>
-        <div class="feature col">
+
+        <div class="feature col text-center"">
           <div
             class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
           >
             <img src="./img/quality-service.JPG" alt="salon chair" />
           </div>
-          <h4 class="fs-2 text-body-emphasis">Quailty Services</h4>
+          <h6 class="fs-2 text-body-emphasis">Quailty Services</h6>
           <p>
             Hair styling services lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Tempore fugiat libero voluptates accusamus aut,
@@ -137,13 +155,13 @@
             <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
           </a> -->
         </div>
-        <div class="feature col">
+        <div class="feature col text-center">
           <div
             class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
           >
             <img src="./img/products.JPG" alt="beauty cream" />
           </div>
-          <h4 class="fs-2 text-body-emphasis">Beauty Products</h4>
+          <h6 class="fs-2 text-body-emphasis">Beauty Products</h6>
           <p>
             Hair color or products lorem ipsum dolor sit amet, consectetur
             adipisicing elit. Tempore fugiat libero voluptates accusamus aut,
@@ -164,7 +182,7 @@
         <div class="col-10 col-sm-8 col-lg-6"></div>
         <div class="col-lg-6">
           <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-            Make Your Momentum
+            Make Your Own Momentum
           </h3>
           <p class="lead">
             Hair Salon lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -172,7 +190,10 @@
             corporis.
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
+            <button
+              type="button"
+              class="btn btn-dark btn-lg px-4 me-md-2 rounded-0"
+            >
               - Read More
             </button>
           </div>
@@ -188,8 +209,9 @@
         <div class="col">
           <div class="card shadow-sm">
             <img card-img-top" src="./img/alita-willims.JPG" alt="hair stylist">
-            <div class="card-body">
+            <div class="card-body text-center">
               <p class="card-text">Alita Williams</p>
+              <p lass="card-text">- Colourist</p>
               <!-- <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -203,8 +225,9 @@
         <div class="col">
           <div class="card shadow-sm">
             <img card-img-top" src="./img/ayesha-lake.JPG" alt="hair stylist">
-            <div class="card-body">
+            <div class="card-body text-center">
               <p class="card-text">Ayesha Lake</p>
+              <p lass="card-text">- Stylist</p>
               <!-- <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -218,8 +241,9 @@
         <div class="col">
           <div class="card shadow-sm">
             <img card-img-top" src="./img/smith-micheal.JPG" alt="hair stylist">
-            <div class="card-body">
+            <div class="card-body text-center">
               <p class="card-text">Micheal Smith</p>
+              <p lass="card-text">-Beautician</p>
               <!-- <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -245,7 +269,10 @@
           <p class="lead">-10% on haircut</p>
           <p class="lead">color and highlight</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-dark btn-lg px-4 me-md-2">
+            <button
+              type="button"
+              class="btn btn-dark btn-lg px-4 me-md-2 rounded-0"
+            >
               - book appointment
             </button>
           </div>
