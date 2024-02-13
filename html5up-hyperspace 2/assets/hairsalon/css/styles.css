@@ -8,8 +8,8 @@
 /* * {
   box-sizing: border-box;
 } */
-
-/* body {
+/* 
+body {
   margin: 0;
   padding: 0;
 } */
@@ -114,15 +114,13 @@ h1 {
   padding-right: 0;
 }
 
-.read-more {
-  background-color: #f2f6fa;
-  width: 100vw;
+.read-more img {
+  width: 100%;
   height: auto;
-  margin: auto 0;
 }
 
-.stylist {
-  margin-top: 10%;
+.stylilst {
+  padding-top: 10rem;
 }
 
 /* .main {
