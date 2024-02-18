@@ -94,9 +94,9 @@
     <!-- hero -->
 
     <div class="container-fluid col-xxl-8 py-5 px-5 hero">
-      <div class="row flex-lg-row-reverse align-items-center py-5">
-        <div class="col-10 col-sm-8 col-lg-6 border border-success"></div>
-        <div class="col-lg-6 text-light border border-warning mt-5 pt-5">
+      <div class="row flex-lg-row align-items-center py-5">
+        <!-- <div class="col-10 col-sm-8 col-lg-6 border border-success"></div> -->
+        <div class="col-lg-6 text-light mt-5 pt-5">
           <h1 class="display-1 lh-3 mt-5 pt-5 mx-5 w-light text-uppercase">
             Blonde <br />
             & Highlight
@@ -115,18 +115,20 @@
           <div
             class="coupon-box d-block align-items-end text-uppercase mt-5 mx-5 col-4"
           >
-            <p>Your first visit?</p>
-            <p>-20% for the first</p>
-            <p>class hair coloring</p>
+            <p class="first">Your first visit?</p>
+            <span class="coupon-code text-nowrap"
+              ><sup>-20%</sup> for the first</span
+            >
+            <span class="d-block text-nowrap my-4">classic hair coloring</span>
             <button
               type="button"
-              class="btn btn-light text-dark btn-lg px-4 me-md-2 fs-6 pt-4 rounded-0"
+              class="btn btn-light text-dark btn-lg px-4 me-md-2 fs-6 pt-2 rounded-0 text-nowrap"
             >
               - book online
             </button>
           </div>
         </div>
-        <section class="hours d-flex align-items-end">
+        <section class="hours">
           <span>mon - sun : 7:00am - 8:00 pm</span>
         </section>
       </div>
@@ -280,16 +282,16 @@
     <div class="container col-xxl-8 px-4 py-5 coupon h-25 w-75 text-uppercase">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6"></div>
-        <div class="col-lg-6">
-          <h6 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-            Color Day Offer!
-          </h6>
-          <p class="lead">-10% on haircut</p>
-          <p class="lead">color and highlight</p>
+        <div class="col-lg-6 coupon-hair border border-success">
+          <p class="text-body-emphasis lh-1 mb-4">Color Day Offer!</p>
+          <p class="lead coupon-code text-nowrap fs-3">
+            <sup>-10%</sup> on haircut
+          </p>
+          <p class="lead fs-3">color and highlight</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button
               type="button"
-              class="btn btn-dark btn-lg px-4 me-md-2 fs-6 rounded-0"
+              class="btn btn-dark btn-lg px-4 mt-4 me-md-2 fs-6 rounded-0"
             >
               - book appointment
             </button>

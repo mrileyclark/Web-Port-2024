@@ -99,9 +99,25 @@ h1 {
   margin-top: 15%;
 }
 
+.first {
+  font-size: 12px;
+  margin-bottom: 25%;
+}
+
+.coupon-code {
+  font-size: 14px;
+  margin-bottom: 5%;
+}
+
+sup {
+  font-weight: bold;
+  font-size: 1.75rem;
+  top: 0;
+}
+
 .coupon-box {
   background-color: black;
-  padding: 5%;
+  padding: 4%;
 }
 
 .hours {
@@ -112,6 +128,7 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.25rem;
   font-size: 0.75rem;
+  margin-left: 600px;
 }
 
 .book {
@@ -131,6 +148,10 @@ h1 {
 
 .stylist-info p {
   margin: 0;
+}
+
+.coupon-hair {
+  padding-left: 40px;
 }
 
 /* .main {
