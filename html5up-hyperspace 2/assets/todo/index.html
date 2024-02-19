@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Todo Proj</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- header and search form -->
+      <header class="text-center text-light my-4">
+        <h1 class="mb-4">Todo List</h1>
+        <form class="search">
+          <input
+            class="form-control m-auto"
+            type="text"
+            name="search"
+            placeholder="search todos"
+          />
+        </form>
+      </header>
+
+      <!-- list for all todos -->
+      <ul class="list-group todos mx-auto text-light">
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>make dinner</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>do laundry</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+        <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>wash dishes</span>
+          <i class="far fa-trash-alt delete"></i>
+        </li>
+      </ul>
+      <!-- form to add todos -->
+      <form class="add text-center my-4">
+        <label class="text-light">Add a new todo...</label>
+        <input class="form-control m-auto" type="text" name="add" />
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
+
+<!-- add todos 
+delete todos 
+search for todos -->
+<!-- bootstrap for Design
+fontawesome for icons -->
+
+<!-- Div with a class of container-a bootstrap class which keeps everything within a
+central column on the page. class of text center to centralize the text text
+like to make it a light color text andthen margin of strength for in the y
+direction. -->
+
+<!-- H1 with a margin bottom of strength four-give some space at the
+bottom and that says to do list.  -->
+
+<!-- form for our search-give this a class of search that's our own class, which we'll use later on in Js. And inside
+this just one input field, it has a class of form control and margin auto, so
+both bootstrap classes to give it some styling. The type is text and the name is
+search. We also have a placeholder called Search to Do's.  -->
+
+<!-- Ul-list for all of our to do's-we give it a class of list group that is a
+bootstrap class which is going to style these list items for us. -->
+<!-- 
+to do's class-our own class-so we can get a reference to this later on or maybe
+style it in our own CSS. margin X direction of auto - centralize it and text hyphen light to give these a light colored text. -->
+
+<!-- each li is going to be one todo-hard coding these to begin with. So each one has
+a class of list hyphen group hyphen item that again is a bootstrap class to
+style these list items.  -->
+
+<!-- they have a display type-flex and justify content between and align items center-these are Flexbox alignment 
+classes just to lay these out a little bit better. And it basically means that these elements
+inside it are going to be displayed as flex items and they're going to be spaced
+correctly.  -->
+
+<!-- icons-give it our own class delete to use later on in either the JS or CSS -->
+
+<!-- form at the bottom to add a new to do-class of Add-need a reference to this form later on in the JS
+have a class of text hyphen center to centralize the text and margin in the Y direction of strength for inside. We
+have a label for the input form with text light and that says add a new to do.
+And then finally we have this input field with a class of form control and auto
+bootstrap classes to style this a bit better. The type is text and the name is Add.  -->
+
+<!-- we don't need a submit button at the bottom because, another way of submitting a form is to fill it out. And then pressing
+enter and that submits the form as well. -->
+
+So the background color is this hex and it's a purple color, the max width of
+the container, which is this remember right here is going to be 400 pixels. So
+now it's going to be a central column of 400 pixels in width in the middle of
+our browser. Then we're using these two selectors right here to get the inputs
+of type text when it's out of focus and also when it's in focus. And by
+in-focus, I mean when we actually click it that is in focus. So we're grabbing
+that and we're colorizing them. So the text is white and the background is this
+transparent black. Again, we're using this alpha channel Rgba so we can use this
+0.2 for the transparency. And then we have a max width of 400 pixels and no
+border. So then we have the to dos the lies inside this thing right here.
+Remember, this has a class of to dos. So all the tags inside there were styling
+and giving those a background of this purple color. Then the delete icon, which
+is the trash can, we're saying give a cursor of pointer so that when we hover
+over them we get that little hand. So if we save it and preview now it looks
+like this, it looks almost complete, but obviously nothing works yet. And if we
+try to add something over here, we can't do So now we need to turn our attention
+to the JavaScript. Now we have this template sorted and hook up all of this
+functionality. Play 77. Project Preview and Setup 3min Play 78. HTML & CSS
+Template 7min Play 79. Adding Todos 9min Play 80. Deleting Todos 5min Play 81.
+Searching & Filtering Todos 18min Teach the world online Create an online video
+course, reach students across the globe, and earn money Top companies choose
+Udemy Business to build in-demand career skills.
+NasdaqVolkswagenBoxNetAppEventbrite Udemy Business Teach on Udemy Get the app
+About us Contact us Careers Blog Help and Support Affiliate Investors Terms
+Privacy policy Sitemap Accessibility statement © 2024 Udemy, Inc.
