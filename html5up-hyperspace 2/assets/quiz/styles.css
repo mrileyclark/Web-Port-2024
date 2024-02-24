@@ -50,3 +50,31 @@ ul li {
   font-size: 1.8rem;
   margin: 1rem 0;
 }
+
+ul li label {
+  cursor: pointer;
+}
+
+/* button styles */
+button {
+  background-color: #7f0909;
+  color: black;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 2.2rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+
+/* changes color when hover */
+button:hover {
+  background-color: #0d6217;
+}
+
+/* changes color when click it */
+button:focus {
+  outline: none;
+  background-color: #0d6217;
+}
