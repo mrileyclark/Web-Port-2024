@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+/* sets body to Shadows Into Light, display flex 
+    centered vertically and horizontially and flex
+    box height takes up entire height of browser
+    overflow not scroll bars show by default */
+body {
+  background-color: #b8c6db;
+  background-image: url("https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/91OTtJUf1JL.jpg");
+  font-family: "Shadows Into Light", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+/* create container wraps everything */
+.quiz-container {
+  background-color: ivory;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+  width: 600px;
+  overflow: hidden;
+}
+
+/* questions/answers are a header */
+.quiz-header {
+  padding: 4rem;
+}
+
+/* centers/styles header */
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* spaces out questions and sets font-size  */
+ul li {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
