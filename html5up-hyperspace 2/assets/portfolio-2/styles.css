@@ -161,7 +161,7 @@ h1 {
   font-weight: var(--bold-font);
 }
 
-#project-text {
+.project-text {
   color: var(--primary-color);
   font-weight: var(--bold-font);
 }
